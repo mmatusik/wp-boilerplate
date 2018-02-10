@@ -156,7 +156,7 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
-function get_component ($name) {
-	return load_template(TEMPLATEPATH . '/layout-parts/' . $name);
-}
-add_action( 'wp_enqueue_scripts', 'get_component' );
+// function get_component ($name) {
+// 	return load_template(TEMPLATEPATH . '/layout-parts/' . $name);
+// }
+// add_action( 'wp_enqueue_scripts', 'get_component' );
